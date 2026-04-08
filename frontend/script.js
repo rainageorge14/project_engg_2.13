@@ -7,7 +7,7 @@ async function generate() {
   output.innerText = "";
 
   try {
-    const res = await fetch("YOUR_BACKEND_URL/explain", {
+    const res = await fetch("https://your-backend-url.onrender.com/explain", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
