@@ -1,0 +1,17 @@
+# Node modules (VERY important)
+node_modules/
+
+# Environment variables (CRITICAL - prevents API key leak)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# Optional: build files
+dist/
+build/
